@@ -1,3 +1,14 @@
+html,
+body, * {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
 .logo{
     width: 25%;
     height: auto;
@@ -21,7 +32,6 @@
 
 footer{
     width: 100%;
-    position: absolute;
     bottom: 0;
     left: 0;
     padding: 2rem 8%;
@@ -32,11 +42,6 @@ footer{
     flex-direction: column;
 }
 
-logo-footer{
-    width: 25%;
-    margin-bottom: 1rem;
-
-}
 
 .social-icons-container, .footer-menu-container{
     display: flex;
@@ -54,11 +59,6 @@ logo-footer{
     background-size: 40%;
     background-repeat: no-repeat;
     margin: 1rem;
-}
-
-.social-icon:hover{
-    background-color: #121212;
-    filter: invert(1);
 }
 
 .footer-menu-container{
@@ -82,3 +82,51 @@ logo-footer{
     opacity: 0.3;
     text-align: center;
 }
+
+.container {
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.container img {
+    width: 450px;
+}
+
+.container img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.container .text-info {
+    margin-left: 5%;
+    color: white;
+    text-align: center;
+    animation: fadeIn 10s;
+}
+
+.interest-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+.fa {
+    font-size: 50px;
+    padding: 15px;
+}
+
+.fa:hover {
+    transform: scale(1.1,1.1);
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
