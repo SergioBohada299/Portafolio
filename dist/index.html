@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <!-- Nav bar -->
+
+    <nav class="navbar">
+      <a href="#" class="logo"
+        ><img src="../dist/img/Logo pagina.svg" alt="" class="logo"
+      /></a>
+      <div class="nav-links">
+        <ul>
+          <li class="active"><a href="">Home</a></li>
+          <li><a href="">Sobre mí</a></li>
+          <li><a href="">Portafolio</a></li>
+          <li><a href="">Contacto</a></li>
+        </ul>
+      </div>
+      <img
+        src="../dist/img/menu-btn.png"
+        alt="menu ham"
+        class="menu-hamburguer"
+      />
+    </nav>
+
+    <!-- Fin Nav bar -->
+
+    <!-- Sección main banner -->
+    <section class="bloque__seccion--3layer">
+      <div class="inner_banner--1">
+        <div class="inner_banner--1">
+          <div class="inner_banner--1">
+            <img src="../dist/img/Main text Sergio.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fin Sección main banner -->
+    <!-- Sección main content -->
+    <section class="bloque__seccion--big">
+      <!-- Div sobre mì -->
+      <div class="inner__banner--2c">
+        <div class="inner__banner--box-txt">
+          <h1>Sobre mí</h1>
+          <p>
+            Vamos a conocernos! Conoce mi formación académica, profesional e
+            integral. Además, te cuento mis objetivos, metas, fortalezas y
+            habilidades.
+          </p>
+          <div class="btn-2">SEGUIR</div>
+        </div>
+        <div class="inner__banner--box">
+          <img src="../dist/img/Icon 1.svg" alt="" />
+        </div>
+      </div>
+      <!-- Fin Div sobre mì -->
+      <!-- Div mis trabajos -->
+      <div class="inner__banner--2c">
+        <div class="inner__banner--box">
+          <img src="../dist/img/Icon 2.svg" alt="" />
+        </div>
+        <div class="inner__banner--box-txt">
+          <h1>Mi trabajo</h1>
+          <p>
+            Explora mis trabajos y proyectos! En esta sección podrás encontrar
+            los trabajos académicos y laborales más significativos de mi carrera
+            profesional y académica.
+          </p>
+          <div class="btn-2">SEGUIR</div>
+        </div>
+      </div>
+      <!-- Fin Div sobre mì -->
+      <!-- Div Contacto  -->
+      <div class="inner__banner--2c">
+        <div class="inner__banner--box-txt">
+          <h1>Mi trabajo</h1>
+          <p>
+            Contáctame y trabajemos juntos ! Sigué esta sección para encontrar
+            mi información de contacto y redes sociales.
+          </p>
+          <div class="btn-2">SEGUIR</div>
+        </div>
+        <div class="inner__banner--box">
+          <img src="../dist/img/Icon 3.svg" alt="" />
+        </div>
+      </div>
+      <!-- Fin Div Contacto  -->
+    </section>
+    <!-- Fin Sección main content -->
+    <!-- Footer -->
+    <footer>
+      <div>
+        <a href="#" class="logo"
+          ><img src="../dist/img/Logo pagina.svg" alt="" class="logo"
+        /></a>
+      </div>
+    </footer>
+    <!-- Fin Footer -->
+    <script>
+      const menuHamburger = document.querySelector(".menu-hamburguer");
+      const navLinks = document.querySelector(".nav-links");
+
+      menuHamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
