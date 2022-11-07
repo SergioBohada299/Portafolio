@@ -1304,7 +1304,7 @@ time, mark, audio, video {
   overflow: hidden;
   margin: 25px 20px;
   font-family: "Quicksand", sans-serif;
-  font-size: 1vw;
+  font-size: 1.5vw;
 }
 
 .btn-2:before {
@@ -1836,4 +1836,10 @@ p {
   font-style: normal;
   font-weight: 300;
   font-size: 2.5vw;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 3.5vw;
 }/*# sourceMappingURL=estilos.css.map */
