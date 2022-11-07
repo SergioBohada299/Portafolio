@@ -1130,7 +1130,7 @@ time, mark, audio, video {
 /*Fin"Sergio Bohada code & desing*/
 /*Sección main content*/
 .bloque__seccion--big {
-  width: 100vw;
+  width: 100%;
   background: rgb(35, 19, 78);
   background: radial-gradient(circle, rgb(35, 19, 78) 0%, rgb(51, 19, 60) 100%);
   box-shadow: 0px -11px 61px 19px rgb(26, 16, 56);
@@ -1345,6 +1345,483 @@ footer img {
     right: 0;
     left: 0;
   }
+}
+
+/*Main banner*/
+.main__about {
+  background-color: #030303;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  align-items: center;
+  justify-items: center;
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+}
+.main__about .main__about--panel--1 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.main__about .main__about--panel--1 img {
+  width: 70%;
+}
+.main__about img {
+  width: 100%;
+}
+
+/*Fin main banner*/
+/*Bloque descripción*/
+.bloque__descrip {
+  width: 100%;
+  box-shadow: 0px 75px 177px 26px rgb(156, 156, 156);
+  background-color: black;
+}
+@media screen and (max-width: 900px) {
+  .bloque__descrip .bloque__des--panel {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(../img/Triangepatter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: grid;
+    grid-template-rows: 100%;
+    align-items: center;
+    justify-items: center;
+    text-align: justify;
+  }
+  .bloque__descrip .bloque__des--panel h1 {
+    padding-bottom: 2%;
+    font-size: 3vw;
+  }
+  .bloque__descrip .bloque__des--panel p {
+    font-size: 2vw;
+  }
+  .bloque__descrip .bloque__des--panel img {
+    width: 80%;
+  }
+  .bloque__descrip .bloque__des--panel .panel_des {
+    padding: 0% 10% 0% 10%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .bloque__descrip .bloque__des--panel {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(../img/Triangepatter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: justify;
+  }
+  .bloque__descrip .bloque__des--panel h1 {
+    padding-bottom: 2%;
+    font-size: 3vw;
+  }
+  .bloque__descrip .bloque__des--panel p {
+    font-size: 2vw;
+  }
+  .bloque__descrip .bloque__des--panel img {
+    width: 100%;
+  }
+  .bloque__descrip .bloque__des--panel .panel_des {
+    padding: 0% 10% 0% 10%;
+  }
+}
+
+/*Sección sobre mí*/
+.bloque__seccion--big--about {
+  width: 100%;
+  box-shadow: 0px 75px 177px 26px rgb(156, 156, 156);
+  background-color: black;
+}
+@media screen and (max-width: 900px) {
+  .bloque__seccion--big--about .inner__banner--2c {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    padding: 10%;
+    background-image: url(/dist/img/Triangepatter.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .bloque__seccion--big--about .inner__banner--2c .inner__banner--box {
+    display: flex;
+    justify-content: center;
+  }
+  .bloque__seccion--big--about .inner__banner--2c .inner__banner--box img {
+    margin-top: 10%;
+    width: 90%;
+  }
+  .bloque__seccion--big--about .inner__banner--2c .inner__banner--box-txt {
+    padding: 1% 5% 1% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    color: white;
+    border-radius: 25px;
+  }
+  .bloque__seccion--big--about .inner__banner--2c .inner__banner--box-txt h1 {
+    font-size: 4.5vw;
+    padding: 3%;
+  }
+  .bloque__seccion--big--about .inner__banner--2c .inner__banner--box-txt p {
+    font-size: 3.5vw;
+  }
+}
+@media screen and (min-width: 900px) {
+  .bloque__seccion--big--about .inner__banner--2c {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10%;
+    background-image: url(/dist/img/Triangepatter.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bloque__seccion--big--about .inner__banner--2c .inner__banner--box {
+    display: flex;
+    justify-content: center;
+  }
+  .bloque__seccion--big--about .inner__banner--2c .inner__banner--box img {
+    width: 90%;
+  }
+  .bloque__seccion--big--about .inner__banner--2c .inner__banner--box-txt {
+    padding: 1% 5% 1% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    color: white;
+    border-radius: 25px;
+  }
+  .bloque__seccion--big--about .inner__banner--2c .inner__banner--box-txt h1 {
+    font-size: 2.5vw;
+    padding: 3%;
+  }
+  .bloque__seccion--big--about .inner__banner--2c .inner__banner--box-txt p {
+    font-size: 2vw;
+  }
+}
+
+/*Sección Zona sobre mí*/
+/*Sección Formación*/
+.bloque__seccion--big--for {
+  width: 100%;
+  box-shadow: 0px 75px 177px 26px rgb(156, 156, 156);
+  background-color: black;
+}
+@media screen and (max-width: 900px) {
+  .bloque__seccion--big--for .inner__banner--2c {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    padding: 10%;
+  }
+  .bloque__seccion--big--for .inner__banner--2c .inner__banner--box {
+    display: flex;
+    justify-content: center;
+  }
+  .bloque__seccion--big--for .inner__banner--2c .inner__banner--box img {
+    margin-top: 10%;
+    width: 90%;
+  }
+  .bloque__seccion--big--for .inner__banner--2c .inner__banner--box-txt {
+    padding: 1% 5% 1% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    color: white;
+    border-radius: 25px;
+  }
+  .bloque__seccion--big--for .inner__banner--2c .inner__banner--box-txt h1 {
+    font-size: 4.5vw;
+    padding: 3%;
+  }
+  .bloque__seccion--big--for .inner__banner--2c .inner__banner--box-txt p {
+    font-size: 3.5vw;
+  }
+}
+@media screen and (min-width: 900px) {
+  .bloque__seccion--big--for .inner__banner--2c {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10%;
+  }
+  .bloque__seccion--big--for .inner__banner--2c .inner__banner--box {
+    display: flex;
+    justify-content: center;
+  }
+  .bloque__seccion--big--for .inner__banner--2c .inner__banner--box img {
+    width: 90%;
+  }
+  .bloque__seccion--big--for .inner__banner--2c .inner__banner--box-txt {
+    padding: 1% 5% 1% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    color: white;
+    border-radius: 25px;
+  }
+  .bloque__seccion--big--for .inner__banner--2c .inner__banner--box-txt h1 {
+    font-size: 2.5vw;
+    padding: 3%;
+  }
+  .bloque__seccion--big--for .inner__banner--2c .inner__banner--box-txt p {
+    font-size: 2vw;
+  }
+}
+
+/*Sección formacipon*/
+/*Sección Formación*/
+.bloque__seccion--big--for--u {
+  width: 100%;
+  box-shadow: 0px 75px 177px 26px rgb(156, 156, 156);
+  background-color: black;
+}
+@media screen and (max-width: 900px) {
+  .bloque__seccion--big--for--u .inner__banner--2c {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    padding: 10%;
+    background-image: url(../img/Pattern1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .bloque__seccion--big--for--u .inner__banner--2c .inner__banner--box {
+    display: flex;
+    justify-content: center;
+  }
+  .bloque__seccion--big--for--u .inner__banner--2c .inner__banner--box img {
+    margin-top: 10%;
+    width: 90%;
+  }
+  .bloque__seccion--big--for--u .inner__banner--2c .inner__banner--box-txt {
+    padding: 1% 5% 1% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    color: white;
+    border-radius: 25px;
+  }
+  .bloque__seccion--big--for--u .inner__banner--2c .inner__banner--box-txt h1 {
+    font-size: 4.5vw;
+    padding: 3%;
+  }
+  .bloque__seccion--big--for--u .inner__banner--2c .inner__banner--box-txt p {
+    font-size: 3.5vw;
+  }
+}
+@media screen and (min-width: 900px) {
+  .bloque__seccion--big--for--u .inner__banner--2c {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10%;
+    background-image: url(../img/Pattern1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .bloque__seccion--big--for--u .inner__banner--2c .inner__banner--box {
+    display: flex;
+    justify-content: center;
+  }
+  .bloque__seccion--big--for--u .inner__banner--2c .inner__banner--box img {
+    width: 90%;
+  }
+  .bloque__seccion--big--for--u .inner__banner--2c .inner__banner--box-txt {
+    padding: 1% 5% 1% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    color: white;
+    border-radius: 25px;
+  }
+  .bloque__seccion--big--for--u .inner__banner--2c .inner__banner--box-txt h1 {
+    font-size: 2.5vw;
+    padding: 3%;
+  }
+  .bloque__seccion--big--for--u .inner__banner--2c .inner__banner--box-txt p {
+    font-size: 2vw;
+  }
+}
+
+/*Sección Zona sobre mí*/
+.bloque__seccion--big--for--tec {
+  width: 100%;
+  box-shadow: 0px 75px 177px 26px rgb(156, 156, 156);
+  background-color: black;
+}
+@media screen and (max-width: 900px) {
+  .bloque__seccion--big--for--tec .inner__banner--2c {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    padding: 10%;
+    background-image: url(../img/Pattern2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .bloque__seccion--big--for--tec .inner__banner--2c .inner__banner--box {
+    display: flex;
+    justify-content: center;
+  }
+  .bloque__seccion--big--for--tec .inner__banner--2c .inner__banner--box img {
+    margin-top: 10%;
+    width: 90%;
+  }
+  .bloque__seccion--big--for--tec .inner__banner--2c .inner__banner--box-txt {
+    padding: 1% 5% 1% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    color: white;
+    border-radius: 25px;
+  }
+  .bloque__seccion--big--for--tec .inner__banner--2c .inner__banner--box-txt h1 {
+    font-size: 4.5vw;
+    padding: 3%;
+  }
+  .bloque__seccion--big--for--tec .inner__banner--2c .inner__banner--box-txt p {
+    font-size: 3.5vw;
+  }
+}
+@media screen and (min-width: 900px) {
+  .bloque__seccion--big--for--tec .inner__banner--2c {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10%;
+    background-image: url(../img/Pattern2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .bloque__seccion--big--for--tec .inner__banner--2c .inner__banner--box {
+    display: flex;
+    justify-content: center;
+  }
+  .bloque__seccion--big--for--tec .inner__banner--2c .inner__banner--box img {
+    width: 90%;
+  }
+  .bloque__seccion--big--for--tec .inner__banner--2c .inner__banner--box-txt {
+    padding: 1% 5% 1% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    color: white;
+    border-radius: 25px;
+  }
+  .bloque__seccion--big--for--tec .inner__banner--2c .inner__banner--box-txt h1 {
+    font-size: 2.5vw;
+    padding: 3%;
+  }
+  .bloque__seccion--big--for--tec .inner__banner--2c .inner__banner--box-txt p {
+    font-size: 2vw;
+  }
+}
+
+/*Sección Zona sobre mí*/
+.bloque__seccion--big--for--tele {
+  width: 100%;
+  box-shadow: 0px 75px 177px 26px rgb(156, 156, 156);
+  background-color: black;
+}
+@media screen and (max-width: 900px) {
+  .bloque__seccion--big--for--tele .inner__banner--2c {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    padding: 10%;
+    background-image: url(../img/Pattern3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .bloque__seccion--big--for--tele .inner__banner--2c .inner__banner--box {
+    display: flex;
+    justify-content: center;
+  }
+  .bloque__seccion--big--for--tele .inner__banner--2c .inner__banner--box img {
+    margin-top: 10%;
+    width: 90%;
+  }
+  .bloque__seccion--big--for--tele .inner__banner--2c .inner__banner--box-txt {
+    padding: 1% 5% 1% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    color: white;
+    border-radius: 25px;
+  }
+  .bloque__seccion--big--for--tele .inner__banner--2c .inner__banner--box-txt h1 {
+    font-size: 4.5vw;
+    padding: 3%;
+  }
+  .bloque__seccion--big--for--tele .inner__banner--2c .inner__banner--box-txt p {
+    font-size: 3.5vw;
+  }
+}
+@media screen and (min-width: 900px) {
+  .bloque__seccion--big--for--tele .inner__banner--2c {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10%;
+    background-image: url(../img/Pattern3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .bloque__seccion--big--for--tele .inner__banner--2c .inner__banner--box {
+    display: flex;
+    justify-content: center;
+  }
+  .bloque__seccion--big--for--tele .inner__banner--2c .inner__banner--box img {
+    width: 90%;
+  }
+  .bloque__seccion--big--for--tele .inner__banner--2c .inner__banner--box-txt {
+    padding: 1% 5% 1% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    color: white;
+    border-radius: 25px;
+  }
+  .bloque__seccion--big--for--tele .inner__banner--2c .inner__banner--box-txt h1 {
+    font-size: 2.5vw;
+    padding: 3%;
+  }
+  .bloque__seccion--big--for--tele .inner__banner--2c .inner__banner--box-txt p {
+    font-size: 2vw;
+  }
+}
+
+.main {
+  background-color: black;
+  padding: 25%;
 }
 
 h1 {

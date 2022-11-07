@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <title>Sobre mí</title>
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <nav class="navbar">
+      <a href="#" class="logo"
+        ><img src="../img/Logo pagina.svg" alt="" class="logo"
+      /></a>
+      <div class="nav-links">
+        <ul>
+          <li class="active"><a href="../">Home</a></li>
+          <li><a href="../section/about.html">Sobre mí</a></li>
+          <li><a href="../section/contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <img src="../img/menu-btn.png" alt="menu ham" class="menu-hamburguer" />
+    </nav>
+    <!-- Fin Nav bar -->
+    <!-- Main banner -->
+    <section class="main__about">
+      <div class="main__about--panel--1">
+        <img src="../img/Banner portrait.png" />
+      </div>
+    </section>
+    <!-- FinMain banner -->
+    <!-- Section Sobre mí -->
+    <section class="bloque__seccion--big--about">
+      <!-- Div sobre mì -->
+      <div class="inner__banner--2c">
+        <div class="inner__banner--box-txt">
+          <h1>¿ Quien soy ?</h1>
+          <p>
+            Desde muy pequeño encontré una fascinación muy grande por las cosas
+            bellas, estéticas y simétricas. Por eso, decidí estudiar una forma
+            de ciencia exacta por medio de la ingeniería de Sistemas. Sin
+            embargo, aun faltaba un componente grafico esencial en mi desempeño
+            profesional académico, fue así, como surgió este portafolio y mis
+            ganas de combinar las ciencias exactas con el estudio de lo
+            estético.
+          </p>
+        </div>
+        <div class="inner__banner--box">
+          <img src="../img/Sobre mi.svg" alt="" />
+        </div>
+      </div>
+      <!-- Fin Div sobre mì -->
+    </section>
+    <!-- Fin Sección sobre mì -->
+
+    <!-- Section Formación -->
+    <section class="bloque__seccion--big--for--u">
+      <!-- Div Univer -->
+      <div class="inner__banner--2c">
+        <div class="inner__banner--box-txt">
+          <h1>Universidad</h1>
+          <p>
+            Soy un estudiante de octavo semestre de la Universidad Francisco
+            José De Caldas, donde he enfocado mi carrera al diseño y desarrollo
+            de software. Domino lenagujes de programación scripting y OOP como
+            Java y Javascript, además cuento con conocimentos en gestores de
+            repositorios como maven y bases de datos SQL.
+          </p>
+        </div>
+        <div class="inner__banner--box">
+          <img src="../img/JavaBanner.svg" alt="" />
+        </div>
+      </div>
+      <!-- Fin Div sobre mì -->
+    </section>
+    <!-- Fin Sección Formación  -->
+    <!-- Section tec -->
+    <section class="bloque__seccion--big--for--tec">
+      <!-- Div redes -->
+      <div class="inner__banner--2c">
+        <div class="inner__banner--box-txt">
+          <h1>Tecnologias</h1>
+          <p>
+            Logré estudiar varias tecnologías actuales a profundidad, esto para
+            la presentación de trabajos remunerados, artículos académicos y
+            trabajos universitarios. Algunas de estas herramientas son Maven
+            para la gestión de dependencias, bases de datos SQL en AWS,
+            librerías de computer vision y manipulación de imágenes como
+            Metadata extractor y openCV.
+          </p>
+        </div>
+        <div class="inner__banner--box">
+          <img src="../img/DataBanner.svg" alt="" />
+        </div>
+      </div>
+      <!-- Fin Div tec -->
+    </section>
+    <!-- Fin Sección Formación  -->
+    <!-- Section Redes -->
+    <section class="bloque__seccion--big--for--tele">
+      <!-- Div Univer -->
+      <div class="inner__banner--2c">
+        <div class="inner__banner--box-txt">
+          <h1>Redes de telecomunicaciones</h1>
+          <p>
+            Durante toda mi carrera académica, trabajé como gestor de redes de
+            telecomunicaciones. Donde aprendí habilidades muy útiles con
+            respecto a la configuración, gestión y administración de redes de
+            telecomunicaciones. Realice el examen CISCO CCNA y la certificación
+            en el instituto de egresados universitarios.
+          </p>
+        </div>
+        <div class="inner__banner--box">
+          <img src="../img/NetBanner.svg" alt="" />
+        </div>
+      </div>
+      <!-- Fin Div -->
+    </section>
+    <!-- Fin Sección Redes  -->
+
+        <!-- Footer -->
+        <footer>
+            <div>
+              <a href="#" class="logo"
+                ><img src="../img/Logo pagina.svg" alt="" class="logo"
+              /></a>
+            </div>
+          </footer>
+          <!-- Fin Footer -->
+
+    <script>
+      const menuHamburger = document.querySelector(".menu-hamburguer");
+      const navLinks = document.querySelector(".nav-links");
+
+      menuHamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>

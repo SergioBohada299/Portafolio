@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/estilos.css" />
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <nav class="navbar">
+      <a href="#" class="logo"
+        ><img src="../img/Logo pagina.svg" alt="" class="logo"
+      /></a>
+      <div class="nav-links">
+        <ul>
+          <li class="active"><a href="../">Home</a></li>
+          <li><a href="../section/about.html">Sobre mí</a></li>
+          <li><a href="../section/contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <img src="../img/menu-btn.png" alt="menu ham" class="menu-hamburguer" />
+    </nav>
+    <!-- Fin Nav bar -->
+    <section class="main">
+      <div class="main__contecnt">
+        <img src="../img/Contacto .svg" alt="" srcset="" />
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div>
+        <a href="#" class="logo"
+          ><img src="../img/Logo pagina.svg" alt="" class="logo"
+        /></a>
+      </div>
+    </footer>
+    <!-- Fin Footer -->
+
+    <script>
+      const menuHamburger = document.querySelector(".menu-hamburguer");
+      const navLinks = document.querySelector(".nav-links");
+
+      menuHamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
